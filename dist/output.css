@@ -2235,6 +2235,12 @@ body{
   color: rgb(99 102 241 / var(--tw-text-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:shrink-0 {
+    flex-shrink: 0;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:w-1\/2 {
     width: 50%;
@@ -2242,6 +2248,10 @@ body{
 
   .md\:w-1\/3 {
     width: 33.333333%;
+  }
+
+  .md\:shrink-0 {
+    flex-shrink: 0;
   }
 
   .md\:text-xl {
@@ -2288,6 +2298,10 @@ body{
     width: 40%;
   }
 
+  .lg\:w-5\/6 {
+    width: 83.333333%;
+  }
+
   .lg\:max-w-full {
     max-width: 100%;
   }
@@ -2298,6 +2312,24 @@ body{
 
   .lg\:bg-transparent {
     background-color: transparent;
+  }
+
+  .lg\:p-12 {
+    padding: 3rem;
+  }
+
+  .lg\:p-16 {
+    padding: 4rem;
+  }
+
+  .lg\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .lg\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .lg\:pt-10 {
