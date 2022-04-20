@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body{
     font-family: 'poppins', sans-serif;
 }
@@ -10,6 +11,11 @@ body{
     @apply fixed z-[9999] bg-white bg-opacity-80;
     backdrop-filter: blur(3px) ;
     box-shadow: inset 0 -1px 0 0 rgba(0,0,0,0.2);
+}
+
+nav{
+    font-family: 'inter', sans-serif;
+    letter-spacing: 1.5px;
 }
 
 .hamburger-line{
