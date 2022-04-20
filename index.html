@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
     <link href="dist/output.css" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="src/favicon.ico" />
     <title>My Portofolio</title>
@@ -104,8 +106,8 @@
                     </h2>
                     <h3 class="font-bold text-3xl max-w-xl mb-5 lg:text-4xl">Hello there 😁, nice to meet you!</h3>
                     <p class="font-medium text-base  leading-relaxed mb-6 text-neutral-800  lg:text-lg">
-                        I'am a Software Engineer from Indonesia. I'm a postgraduate student in Informatics Engineering
-                        Programme. I love to learn something new and doing research in software development.
+                        I am a software engineer from Indonesia. I'm a postgraduate student in Informatics Engineering
+                        Programme. I love to learn something new and doing research in software development fields.
                     </p>
                 </div>
                 <div class="w-full px-4 lg:w-1/2 lg:text-lg">
@@ -222,7 +224,7 @@
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="dist/img/portofolio/2.png"  alt="Kopi Teras" width="w-full">
+                        <img src="dist/img/portofolio/2.png" alt="Kopi Teras" width="w-full">
                     </div>
                     <h3 class="font-semibold text-xl text-black mt-5 mb-3">Kopi Teras Coffe Shop Dashboard Management
                     </h3>
@@ -309,51 +311,94 @@
     <section id="certificate" class="pt-36 pb-32 bg-indigo-50">
         <div class="container">
             <div class="w-full px-4 ">
-                <div class="max-w-xl mx-auto text-center mb-16">
-                    <h4 class="font-semibold text-lg text-primary mb-2">Specilaziations</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-4">My Certifications</h2>
-                    <p class="font-medium text-md text-base text-neutral-800">
-                        Some of my specializations certificate...
-                    </p>
-                </div>
-                <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
-                    <div class="mb-12 p-4 text-center md:w-1/2">
-                        <h3 class="font-semibold text-xl text-black mt-5 mb-3">
-                            Google Project Management
-                        </h3>
-                        <div class="rounded-md shadow-md overflow-hidden">
-                            <img src="dist/img/certificate/1.png" width="w-full">
+                <div class="w-full px-4 ">
+                    <div class="max-w-xl mx-auto text-center mb-16">
+                        <h4 class="font-semibold text-lg text-primary mb-2">Specilaziations</h4>
+                        <h2 class="font-bold text-dark text-3xl mb-4">My Certifications</h2>
+                        <p class="font-medium text-md text-base text-neutral-800">
+                            Some of my specializations certificate...
+                        </p>
+                    </div>
+                    <div class="max-w-xl mx-auto text-center">
+                        <div id="carouselExampleCaptions" class="carousel carousel-dark slide relative"
+                            data-bs-ride="carousel">
+                            <div
+                                class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+
+                            </div>
+                            <div class="carousel-inner relative w-full overflow-hidden">
+                                <div class="carousel-item active relative float-left w-full">
+                                    <div class="py-12 px-16">
+                                        <h3 class="font-semibold text-xl text-black mt-5 mb-3">
+                                            Google Project Management
+                                        </h3>
+                                        <div class="rounded-md shadow-md overflow-hidden">
+                                            <img src="dist/img/certificate/1.png" class="  w-full">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item relative float-left w-full">
+                                    <div class="py-12 px-16">
+                                        <h3 class="font-semibold text-xl text-black mt-5 mb-3">
+                                            Dicoding AWS Beginner
+                                        </h3>
+                                        <div class="rounded-md shadow-md overflow-hidden">
+                                            <img src="dist/img/certificate/3.png" class="  w-full">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item relative float-left w-full">
+                                    <div class="py-12 px-16 mx-auto w-5/6">
+                                        <h3 class="font-semibold text-xl text-black mt-5 mb-3">
+                                            Nvidia DLI Certificate
+                                        </h3>
+                                        <div class="rounded-md shadow-md overflow-hidden">
+                                            <img src="dist/img/certificate/2.png" class="  w-auto">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item relative float-left w-full">
+                                    <div class="py-12 px-16 mx-auto w-5/6">
+                                        <h3 class="font-semibold text-xl text-black mt-5 mb-3">
+                                            EF SET Certificate
+                                        </h3>
+                                        <div class="rounded-md shadow-md overflow-hidden">
+                                            <img src="dist/img/certificate/4.png" class="  w-auto">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button
+                                class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+                                type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon inline-block bg-no-repeat"
+                                    aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button
+                                class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+                                type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon inline-block bg-no-repeat"
+                                    aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
                     </div>
-                    <div class="mb-12 p-4 text-center md:w-1/2">
-                        <h3 class="font-semibold text-xl text-black mt-5 mb-3">
-                            Dicoding AWS Beginner
-                        </h3>
-                        <div class="rounded-md shadow-md overflow-hidden">
-                            <img src="dist/img/certificate/3.png" width="w-full">
-                        </div>
-                    </div>
-                    <div class="mb-12 p-4 text-center md:w-1/2">
-                        <h3 class="font-semibold text-xl text-black mt-5 mb-3">
-                            Nvidia DLI Certificate
-                        </h3>
-                        <div class="rounded-md shadow-md overflow-hidden">
-                            <img src="dist/img/certificate/2.png" width="w-full">
-                        </div>
-                    </div>
-                    <div class="mb-12 p-4 text-center md:w-1/2">
-                        <h3 class="font-semibold text-xl text-black mt-5 mb-3">
-                            EF SET Certificate
-                        </h3>
-                        <div class="rounded-md shadow-md overflow-hidden">
-                            <img src="dist/img/certificate/4.png" width="w-full">
-                        </div>
-                    </div>
+
                 </div>
             </div>
-        </div>
     </section>
     <!-- Certificate Section End -->
+
+
 
     <!-- Contact Section Start -->
     <section id="contact" class="pt-36 pb-32">
@@ -397,15 +442,19 @@
 
 
     <!-- Footer Section Start -->
-    <footer class="bg-blue-100 pt-24 pb-12">
+    <footer class="bg-blue-100 pt-24 pb-16">
         <div class="container">
             <div class="flex flex-wrap text-xs">
-                <div class="w-full px-4 mb-12 text-slate-800 font-medium md:w-1/3 ">
-                    <h2 class="font-bold text-3xl text-black mb-5">PT. KOS MESRA TBK </h2>
+                 <div class="w-full px-4 mb-12 text-slate-800 font-medium md:w-1/3 ">
+                    <h2 class="font-light text-xl text-black mb-5">PT. KOS MESRA TBK </h2>
                     <h1 class="font-bold text-2xl mb-2">Call Us ✉️</h1>
                     <p>Ikhsanmhd12@gmail.com</p>
                     <p>Cisitu Lama, Dago</p>
                     <p>Bandung</p>
+                    <iframe class="pt-4 pr-20 w-full border-2"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.08912573676!2d107.60982901453538!3d-6.879925569230522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6fbaaaaaacb%3A0xcdef01562283b456!2sIndomaret!5e0!3m2!1sen!2sid!4v1650453945423!5m2!1sen!2sid"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="w-full px-4 mb-12 text-slate-800 font-medium md:w-1/3 ">
                     <h3 class="font-semibold text-xl text-black mb-5">Articles Category</h3>
@@ -533,8 +582,11 @@
     </footer>
     <!-- Footer Section End-->
 
-
+    <!-- JavaScript-->
     <script src="dist/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+
+
 </body>
 
 </html>

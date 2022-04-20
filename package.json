@@ -11,5 +11,9 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "swiper": "^8.1.1",
+    "tw-elements": "^1.0.0-alpha12"
   }
 }

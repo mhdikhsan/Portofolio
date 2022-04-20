@@ -1,3 +1,4 @@
+
 //navbar fixed
 window.onscroll = function (){
     const header = document.querySelector('header');
@@ -18,3 +19,8 @@ hamburger.addEventListener('click', function(){
     hamburger.classList.toggle('hamburger-active');
     navMenu.classList.toggle('hidden');
 });
+
+
+//caraousel
+
+  
